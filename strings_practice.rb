@@ -14,14 +14,20 @@
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 
-p "Please type a word:"
-word = gets.chomp.downcase
+#p "Please type a word:"
+#word = gets.chomp.downcase
 
-if word == "marco"
-  p "polo"
-end
+#if word == "marco"
+#  p "polo"
+#end
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+
+color1 = "red"
+color2 = "yellow"
+color3 = "blue"
+
+p "The primary colors are " + color1 + ", " + color2 + ", and " + color3 + "."
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
