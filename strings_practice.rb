@@ -39,13 +39,17 @@
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
-p "Please enter your name:"
-name = gets.chomp.capitalize
-if name != "Santa"
-  p "You're not Santa."
-end
+#p "Please enter your name:"
+#name = gets.chomp.capitalize
+#if name != "Santa"
+#  p "You're not Santa."
+#end
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+
+title = "The Fountainhead"
+author = "Ayn Rand"
+p "The author of " + title + " is " + author + "."
 
 # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
 
